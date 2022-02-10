@@ -8,4 +8,4 @@ def init(a, b):
     y = b
 
 def do_it(x, y):
-    return x // y
+    return x - y
