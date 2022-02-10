@@ -1,12 +1,18 @@
 # # это из примера с лекции
+# В нашем случае нужны аргументы: дататайм, 
+# первое и второе число, результат
+
+
+
 # from datetime import datetime as dt
+import model_sum as model
 # from time import time
 
-# def temperature_logger(data):
-#     time = dt.now().strftime('%H:%M')
-#     with open('log.csv', 'a') as file:
-#         file.write('{};temperature;{}\n'
-#                     .format(time, data))
+def sum_logger(data):
+#    time = dt.now().strftime('%H:%M')
+    with open('log.csv', 'a') as file:
+        file.write('{};temperature;{}\n'
+                    .format(time, data))
 
 # def pressure_logger(data):
 #     time = dt.now().strftime('%H:%M')
