@@ -4,3 +4,25 @@
 * Второй участник группы пишет модуль работы с комплексными числами
 * Третий участник группы пишет модуль работы с рациональными числами
 * Четвертый участник описывает пользовательское меню и UI для работы с калькулятором. (в качестве UI используется консоль)
+
+
+1 - model_sum
+    sum_rac
+    sum_complex
+2 - model_mult
+    mult_rac
+    mult_complex
+3 - model_div
+    div_rac
+    div_complex
+4 - controller
+    button_click
+5 - logger
+    rac_log
+    complex_log
+6 - user_interface
+    input_data
+    view_data
+7 - main
+
+
